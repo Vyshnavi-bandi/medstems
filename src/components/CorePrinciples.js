@@ -40,7 +40,7 @@ export default function CorePrinciples() {
               width={600}
               height={500}
               alt="surgery"
-              className="principle-banner w-100"
+              className="principle-banner w-100 h-100"
             />
 
           </div>
