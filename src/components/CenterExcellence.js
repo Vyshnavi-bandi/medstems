@@ -10,7 +10,7 @@ export default function CenterExcellence() {
     { title: "Dentist", image: "/assets/dentist.png" },
     { title: "Opthalmology", image: "/assets/opthalmology.png" },
     { title: "Pediatry", image: "/assets/pediatry.png" },
-    { title: "Orthopaedics", image: "/assets/orthopaedics.png" },
+    { title: "Orthopaedics", image: "/assets/orthopedics.png" },
   ];
 
   return (
