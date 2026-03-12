@@ -1,0 +1,345 @@
+/* ================= VARIABLES ================= */
+
+:root{
+  --primary:#2aa5a9;
+  --secondary:#1CB5BD;
+  --light-bg:#E9F7F8;
+  --cta-blue:#03ACF2;
+  --white:#ffffff;
+  --gray:#808080;
+  --star:#f5b400;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.nav-main{
+  background:var(--primary);
+}
+
+.navbar-brand{
+  font-size:15px;
+}
+
+.nav-main .nav-link{
+  color:var(--white);
+  font-weight:500;
+  margin-right:20px;
+}
+
+.nav-main .nav-link:hover{
+  color:#e6fafa;
+}
+
+.nav-main .active{
+  font-weight:700;
+}
+
+.nav-item{
+  font-size:15px;
+  padding-right:10px;
+}
+
+.custom-navbar{
+  background:var(--primary);
+}
+
+.navbar-nav .nav-link{
+  color:var(--white);
+  font-weight:500;
+}
+
+.navbar-nav .nav-link:hover{
+  color:#e6e6e6;
+}
+
+.navbar-toggler{
+  border:none;
+}
+
+.navbar-toggler-icon{
+  filter:invert(1);
+}
+
+.dropdown-menu{
+  background:var(--primary);
+  border:none;
+}
+
+.dropdown-menu .dropdown-item{
+  color:var(--white);
+  font-weight:500;
+}
+
+.dropdown-item:hover{
+  color:#e6e6e6;
+  background-color:var(--primary);
+}
+
+.nav-item.dropdown:hover .dropdown-menu{
+  display:block;
+  margin-top:0;
+}
+
+
+/* ================= HERO SECTION ================= */
+
+.banner-content p{
+  font-size:15px;
+  font-weight:600;
+  line-height:30px;
+  margin:30px 0;
+}
+
+.banner-content button{
+  background-color:var(--secondary);
+}
+
+.patient-card{
+  position:absolute;
+  bottom:19px;
+  right:-15%;
+  background:var(--white);
+  padding:25px;
+  border-radius:20px;
+  border:3px solid var(--primary);
+  text-align:center;
+}
+
+@media (max-width:992px){
+
+  .patient-card{
+    right:5%;
+  }
+
+}
+
+/* ================= AVATAR GROUP ================= */
+
+.avatar-group img{
+  width:35px;
+  height:35px;
+  border:2px solid var(--white);
+  margin-left:-10px;
+}
+
+.avatar-group img:first-child{
+  margin-left:0;
+}
+
+.avatar-count{
+  background:var(--primary);
+  color:var(--white);
+  padding:5px 10px;
+  border-radius:20px;
+  font-size:12px;
+  margin-left:8px;
+}
+
+.rating{
+  gap:8px;
+  margin-top:5px;
+}
+
+.rating small{
+  font-size:10px;
+}
+
+.star{
+  color:var(--star);
+  font-size:18px;
+}
+
+.tour-text p{
+  font-weight:600;
+  font-size:12px;
+}
+
+
+/* ================= FEATURE BAR ================= */
+
+.feature-section{
+  margin-top:-40px;
+}
+
+.feature-box{
+  background:var(--primary);
+  border-radius:18px;
+  padding:25px;
+  color:var(--white);
+}
+
+.feature-item{
+  gap:15px;
+}
+
+.feature-item p{
+  margin:0;
+}
+
+.feature-icon{
+  background:var(--white);
+  color:var(--primary);
+  padding:8px 12px;
+  border-radius:8px;
+  font-size:18px;
+}
+
+
+/* ================= SERVICES ================= */
+
+.service-card{
+  background:#FEEFEB;
+  padding:35px 20px;
+  border-radius:15px;
+  transition:all .3s ease;
+  box-shadow:1px 0px 2px 3px #efefefd4;
+}
+
+.service-card:hover{
+  transform:translateY(-5px);
+}
+
+
+/* ================= CENTER OF EXCELLENCE ================= */
+
+.excellence-section{
+  background:var(--secondary);
+}
+
+.excellence-card{
+  border:1px solid rgba(255,255,255,0.6);
+  padding:25px;
+  border-radius:12px;
+  color:var(--white);
+  gap:15px;
+  transition:all .3s ease;
+}
+
+.excellence-card:hover{
+  background:rgba(255,255,255,0.1);
+}
+
+.icon{
+  font-size:20px;
+}
+
+
+/* ================= CORE PRINCIPLES ================= */
+
+.principles-section{
+  background:var(--light-bg);
+}
+
+.principle-img{
+  width:100%;
+  height:auto;
+  object-fit:cover;
+}
+
+.principle-item{
+  gap:15px;
+}
+
+.principle-icon{
+  width:70px;
+  height:70px;
+  background:var(--white);
+  font-size:20px;
+  color:var(--primary);
+  padding:20px;
+}
+
+
+/* ================= CTA SECTION ================= */
+
+.cta-section{
+  background:var(--cta-blue);
+  padding:60px 0;
+}
+
+.cta-btn{
+  background:var(--white);
+  color:var(--cta-blue);
+  border:none;
+  border-radius:30px;
+  transition:all .3s ease;
+}
+
+.cta-btn:hover{
+  background:#f1f1f1;
+}
+
+
+/* ================= APPOINTMENT FORM ================= */
+
+.appointment-input{
+  height:50px;
+  border:2px solid #333;
+  border-radius:6px;
+  padding-left:15px;
+}
+
+.confirm-btn{
+  background:var(--secondary);
+  color:var(--white);
+  border:none;
+  border-radius:8px;
+  transition:all .3s ease;
+}
+
+.confirm-btn:hover{
+  background:#238d90;
+}
+
+
+/* ================= DISCLAIMER ================= */
+
+.disclaimer-section{
+  background:#4e8bcc;
+  color:var(--white);
+  padding:70px 0;
+}
+
+.disclaimer-section p{
+  max-width:900px;
+  margin:auto;
+  line-height:1.8;
+  font-size:15px;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer-section{
+  background:var(--light-bg);
+}
+
+.footer-title{
+  color:#30959c;
+  margin-bottom:15px;
+}
+
+.footer-links{
+  list-style:none;
+  padding:0;
+}
+
+.footer-links li{
+  margin-bottom:10px;
+  cursor:pointer;
+}
+
+.social-icons span{
+  display:inline-flex;
+  width:40px;
+  height:40px;
+  background:var(--gray);
+  color:var(--white);
+  margin-right:10px;
+  font-size:14px;
+}
+
+.footer-bottom{
+  font-size:14px;
+}
