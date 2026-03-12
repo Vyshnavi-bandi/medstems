@@ -6,7 +6,7 @@ export default function CenterExcellence() {
    { title: "Neurology", image: "/assets/neurology.png" },
     { title: "Cardiology", image: "/assets/cardiology.png" },
     { title: "Surgery", image: "/assets/surgery.png" },
-    { title: "Gastroenterlogy", image: "/assets/gastroenterlogy.png" },
+    { title: "Gastroenterlogy", image: "/assets/gastroenteology.png" },
     { title: "Dentist", image: "/assets/dentist.png" },
     { title: "Opthalmology", image: "/assets/opthalmology.png" },
     { title: "Pediatry", image: "/assets/pediatry.png" },
